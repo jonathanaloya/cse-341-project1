@@ -5,8 +5,8 @@
     "description": "Users Api",
     "version": "1.0.0"
   },
-  "host": "https://project-1-4b5z.onrender.com",
-  "basePath": "/",
+  "host": "localhost:3001",
+  "basePath": "/api-docs",
   "schemes": [
     "http",
     "https"
@@ -18,6 +18,16 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "responses": {
+          "default": {
+            "description": ""
           }
         }
       }

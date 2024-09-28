@@ -34,6 +34,7 @@ const createUser = async (req, res) => {
 };
 
 const updateUser = async (req, res) => {
+    const userId = new ObjectId(req.params.id);
     const user = {
         email: req.body.email,
         username: req.body.username,
