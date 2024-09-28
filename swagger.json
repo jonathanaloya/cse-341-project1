@@ -8,7 +8,6 @@
   "host": "project-1-4b5z.onrender.com/",
   "basePath": "/api-docs",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
