@@ -21,16 +21,7 @@
         }
       }
     },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
+    
     "/users/": {
       "get": {
         "description": "",
